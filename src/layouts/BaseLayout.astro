@@ -1,0 +1,53 @@
+---
+import '../styles/global.css';
+
+const { title = 'AI Reading Atlas', description = 'A bilingual library for stories, ideas, and discovery.' } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#f5f2eb" />
+    <title>{title} · AI Reading Atlas</title>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href={base}>
+          <span class="brand-mark">A<span>R</span></span>
+          <span class="brand-name">READING <b>ATLAS</b></span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href={base} class="nav-link active">Discover</a>
+          <a href={`${base}#library`} class="nav-link">Library</a>
+          <a href={`${base}about/`} class="nav-link">About</a>
+        </nav>
+        <div class="top-actions">
+          <span class="edition-label">VOL. 01 <i></i> 2026</span>
+          <button class="icon-button" id="theme-toggle" aria-label="Toggle color theme" title="Toggle theme">◐</button>
+        </div>
+      </header>
+      <main>
+        <slot />
+      </main>
+      <footer class="footer">
+        <span>AI READING ATLAS</span>
+        <span>Stories cross every border.</span>
+        <span>AN OPEN READING EXPERIMENT · 2026</span>
+      </footer>
+    </div>
+    <script is:inline>
+      const themeButton = document.getElementById('theme-toggle');
+      const savedTheme = localStorage.getItem('ara-theme');
+      if (savedTheme === 'dark') document.documentElement.dataset.theme = 'dark';
+      themeButton?.addEventListener('click', () => {
+        const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+        document.documentElement.dataset.theme = next;
+        localStorage.setItem('ara-theme', next);
+      });
+    </script>
+  </body>
+</html>

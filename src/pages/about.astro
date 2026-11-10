@@ -1,0 +1,18 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const base = import.meta.env.BASE_URL;
+---
+<BaseLayout title="About">
+  <section class="about-page">
+    <a class="back-link" href={base}>← BACK TO LIBRARY</a>
+    <div class="eyebrow"><span class="eyebrow-line"></span> ABOUT THE PROJECT</div>
+    <h1>A library for<br/><em>curious minds.</em></h1>
+    <p>AI Reading Atlas is an open experiment in bilingual reading. We explore how original writing, thoughtful translation, and lightweight web technology can make stories easier to discover and enjoy.</p>
+    <div class="about-principles">
+      <div><span>01</span><h2>Open by design</h2><p>The reading interface is open source. Book content is stored separately, in simple portable files.</p></div>
+      <div><span>02</span><h2>Bilingual at heart</h2><p>English and Chinese belong side by side, with room for other languages in the future.</p></div>
+      <div><span>03</span><h2>Human curiosity</h2><p>AI can help create and translate. Readers bring the questions, interpretation, and meaning.</p></div>
+    </div>
+    <p class="about-note">This is an early prototype. The sample story is an original AI-assisted work created for this project.</p>
+  </section>
+</BaseLayout>

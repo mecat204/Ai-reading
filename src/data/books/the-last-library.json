@@ -1,0 +1,96 @@
+{
+  "slug": "the-last-library",
+  "title": "The Last Library",
+  "titleZh": "最后的图书馆",
+  "subtitle": "A short original story about memory, books, and the future.",
+  "subtitleZh": "一个关于记忆、书籍与未来的原创短篇故事。",
+  "author": "AI Reading Atlas Studio",
+  "year": "2026",
+  "language": "English · 中文",
+  "category": "Speculative Fiction",
+  "categoryZh": "科幻寓言",
+  "readingTime": "12 min",
+  "level": "Intermediate",
+  "status": "Original · AI-assisted",
+  "description": "In a city where every memory can be stored in a machine, a quiet librarian protects the one thing that cannot be copied: the meaning of a story.",
+  "descriptionZh": "在一座所有记忆都能储存在机器里的城市，一位安静的图书管理员守护着唯一无法被复制的东西：故事的意义。",
+  "cover": "cover-amber",
+  "chapters": [
+    {
+      "number": "01",
+      "title": "The Quiet Room",
+      "titleZh": "安静的房间",
+      "paragraphs": [
+        {
+          "en": "At the edge of the city stood a library that nobody had visited for twenty years. Its windows were dusty, its brass sign had turned green, and ivy climbed the eastern wall as if nature were slowly trying to read the building.",
+          "zh": "城市边缘有一座图书馆，已经二十年无人到访。窗户积满灰尘，黄铜招牌变成了绿色，常春藤爬上东墙，仿佛大自然正试着慢慢读懂这栋建筑。"
+        },
+        {
+          "en": "Mira kept the keys. Every morning she opened the heavy door, swept the floor, and sat beneath a small lamp. She did not wait for visitors. She came because the books were still there, and because someone had to remember that they existed.",
+          "zh": "米拉保管着钥匙。每天早晨，她打开沉重的大门，扫净地板，然后坐在一盏小灯下。她并不等待访客。她来到这里，只因为书还在，也因为总得有人记得它们曾经存在。"
+        },
+        {
+          "en": "Outside, people asked their personal machines for everything: a recipe, a love letter, a history of the stars. The machines answered instantly. The city called this progress. Mira wondered when people had stopped asking one another.",
+          "zh": "在外面，人们向个人机器询问一切：一道食谱、一封情书、一段星辰的历史。机器总能立刻回答。城市称之为进步。米拉却在想，人们究竟从什么时候开始不再彼此提问了。"
+        }
+      ]
+    },
+    {
+      "number": "02",
+      "title": "A Visitor in the Rain",
+      "titleZh": "雨中的访客",
+      "paragraphs": [
+        {
+          "en": "One evening, a child appeared at the door. Rain ran from the sleeves of his coat, and he held a paper book against his chest as carefully as if it were a sleeping bird.",
+          "zh": "一天傍晚，一个孩子出现在门口。雨水顺着他的衣袖流下，他把一本纸质书紧紧抱在胸前，小心翼翼，仿佛怀里是一只熟睡的小鸟。"
+        },
+        {
+          "en": "“Can you tell me what this book means?” he asked. “The machine gave me a summary, but I still don't understand why my grandmother cried when she read it.”",
+          "zh": "“你能告诉我这本书意味着什么吗？”他问，“机器给了我摘要，可我还是不明白，为什么祖母读它的时候会哭。”"
+        },
+        {
+          "en": "Mira did not answer at once. She made tea, found two chairs, and asked him to read the first page aloud. The boy stumbled over a few words. Then his voice grew steadier, and the room seemed to become larger.",
+          "zh": "米拉没有立刻回答。她泡了茶，搬来两把椅子，请他把第一页读出来。男孩有几个词读得磕磕绊绊，随后声音渐渐平稳，房间仿佛也随之变得宽阔。"
+        }
+      ]
+    },
+    {
+      "number": "03",
+      "title": "What Cannot Be Summarized",
+      "titleZh": "无法被摘要的东西",
+      "paragraphs": [
+        {
+          "en": "They read until the rain stopped. Mira explained an old custom: readers once wrote notes in the margins, not to correct the author, but to leave a small trace of their own lives beside the words.",
+          "zh": "他们一直读到雨停。米拉讲起一种古老的习惯：从前，读者会在书页边缘写下笔记，不是为了纠正作者，而是为了把自己生命中的一点痕迹留在文字旁边。"
+        },
+        {
+          "en": "“A summary can tell you what happened,” she said. “A translation can help you cross a language. But neither can decide what a sentence will awaken in you.”",
+          "zh": "“摘要可以告诉你发生了什么，”她说，“翻译可以帮你跨越语言。但它们都无法替你决定，一句话会在你心里唤醒什么。”"
+        },
+        {
+          "en": "The boy looked again at the page. This time he noticed the silence between two lines. He thought of his grandmother's hands, and suddenly the tears in her eyes were no longer a mystery.",
+          "zh": "男孩再次看向书页。这一次，他注意到了两行文字之间的沉默。他想起祖母的双手，忽然间，祖母眼中的泪水不再是一个谜。"
+        }
+      ]
+    },
+    {
+      "number": "04",
+      "title": "The Light Left On",
+      "titleZh": "留下的灯光",
+      "paragraphs": [
+        {
+          "en": "The child returned the next week with a friend. The week after that, three more came. They brought questions, old books, and stories they had heard at home. The library slowly filled with voices.",
+          "zh": "第二周，男孩带着一位朋友回来了。再下一周，又来了三个孩子。他们带来问题、旧书，以及在家里听过的故事。图书馆渐渐重新充满了声音。"
+        },
+        {
+          "en": "Mira still used the machines. She asked them to help repair damaged pages and to find the origins of unfamiliar words. She was not afraid of new tools. She only believed that tools should bring people closer to the things that matter.",
+          "zh": "米拉也仍然使用机器。她让机器帮忙修复破损的书页，寻找陌生词语的出处。她并不害怕新工具。她只是相信，工具应该让人们更接近那些真正重要的事物。"
+        },
+        {
+          "en": "Years later, the city built a bright new library beside the old one. Its screens were fast and its shelves were endless. Yet every evening, a small lamp continued to glow in the quiet room at the edge of town.",
+          "zh": "多年以后，城市在旧图书馆旁建起了一座明亮的新图书馆。那里屏幕飞快，书架仿佛没有尽头。然而每天傍晚，城镇边缘那间安静的房间里，仍有一盏小灯亮着。"
+        }
+      ]
+    }
+  ]
+}

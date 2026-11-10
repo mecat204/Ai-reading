@@ -1,0 +1,135 @@
+{
+  "slug": "ai-on-entrepreneurship",
+  "title": "AI on Entrepreneurship: Starting with an Idea",
+  "titleZh": "AI谈创业：从一个想法开始",
+  "subtitle": "A practical reflection on creating value in the age of artificial intelligence.",
+  "subtitleZh": "关于如何在人工智能时代，把想法变成价值的一次实践思考。",
+  "author": "AI Reading Atlas Studio",
+  "year": "2026",
+  "language": "English · 中文",
+  "category": "Technology & Society",
+  "categoryZh": "科技与社会",
+  "readingTime": "18 min",
+  "level": "All readers",
+  "status": "Original · AI-assisted",
+  "description": "Can an ordinary person build something meaningful with AI and open-source tools? A grounded conversation about ideas, small beginnings, human judgment, and sustainable value.",
+  "descriptionZh": "普通人能否借助 AI 和开源工具创造真正有价值的产品？本书从今天的一次对话出发，讨论想法、小步起跑、人类判断力与可持续价值。",
+  "cover": "cover-amber",
+  "chapters": [
+    {
+      "number": "01",
+      "title": "Entrepreneurship Doesn't Have to Begin with a Company",
+      "titleZh": "创业不一定从公司开始",
+      "paragraphs": [
+        {
+          "en": "In the past, entrepreneurship often seemed to require capital, a team, an office, and a carefully written business plan. For many people, the distance between having an idea and building a product felt impossibly wide.",
+          "zh": "过去，创业似乎总是离不开资金、团队、办公室，以及一份精心准备的商业计划书。对许多人来说，从拥有一个想法到真正做出产品，中间隔着一道难以跨越的鸿沟。"
+        },
+        {
+          "en": "AI is changing the cost of getting started. A person with a computer, a clear idea, and a few open-source tools can now build a website, test a small application, or organize a useful body of knowledge. Work that once required several specialists can often begin with one determined person and an AI collaborator.",
+          "zh": "AI 正在改变创业的起步成本。一个人只要拥有电脑、清晰的想法和几种开源工具，就可能搭建网站、测试小型应用，或者组织一套有用的知识内容。过去需要多位专业人员协作才能启动的工作，如今往往可以由一个有行动力的人与 AI 合作完成。"
+        },
+        {
+          "en": "This does not make creation effortless, nor does it remove every cost. It changes which costs matter most. When technical barriers fall, the ability to recognize a real problem and make sound decisions becomes more important.",
+          "zh": "这并不意味着创造变得毫不费力，也不意味着所有成本都消失了。它改变的是成本的构成。当技术门槛下降，发现真实问题、作出可靠判断的能力就变得更加重要。"
+        },
+        {
+          "en": "The first question is no longer simply, “Can I build it?” It is also, “Should this exist, and who would benefit from it?”",
+          "zh": "第一个问题不再只是“我能不能把它做出来？”，还应该问：“它有没有存在的必要？谁会从中受益？”"
+        }
+      ]
+    },
+    {
+      "number": "02",
+      "title": "Start Small, but Start with Something Real",
+      "titleZh": "从小处开始，但要解决真实问题",
+      "paragraphs": [
+        {
+          "en": "Many projects become heavy before they become useful. Their creators imagine a complete platform, hundreds of features, a huge audience, and a polished business model before confirming that anyone needs the basic idea.",
+          "zh": "许多项目还没变得有用，就先变得沉重。创作者在确认是否有人需要最初的想法之前，便开始设想完整的平台、数百项功能、庞大的用户群和成熟的商业模式。"
+        },
+        {
+          "en": "A better approach is to build the smallest version that can test the central assumption. This is often called a Minimum Viable Product, or MVP. It is not a careless or broken product. It is a focused experiment that helps answer a practical question: does this solve a problem for someone?",
+          "zh": "更好的做法，是先构建一个能够验证核心假设的最小版本。这通常被称为最小可行产品（MVP）。它不是粗制滥造的残缺产品，而是一次聚焦的实验，用来回答一个实际问题：它是否真正解决了某个人的问题？"
+        },
+        {
+          "en": "Consider a bilingual library of AI-assisted books. It does not need a complicated server or thousands of titles on day one. A lightweight website, a consistent content format, and a handful of worthwhile books are enough to test whether readers value the experience.",
+          "zh": "以 AI 双语书库为例。它在第一天并不需要复杂的服务器，也不需要数千本书。一个轻量网站、一套统一的内容格式，以及几本值得阅读的作品，就足以测试读者是否认可这种体验。"
+        },
+        {
+          "en": "Build one useful room before planning an entire city. Let real use—not imagination alone—decide what should be built next.",
+          "zh": "先建好一间真正有用的房间，再考虑规划整座城市。下一步应该建什么，让真实使用情况来决定，而不只是依靠想象。"
+        }
+      ]
+    },
+    {
+      "number": "03",
+      "title": "AI Is a Collaborator, Not a Savior",
+      "titleZh": "AI 是合作者，不是救世主",
+      "paragraphs": [
+        {
+          "en": "AI can draft articles, generate code, design interfaces, summarize research, and help plan a product. These abilities are powerful, but they do not remove the need for human thought. In fact, stronger tools make clear direction even more valuable.",
+          "zh": "AI 可以起草文章、生成代码、设计界面、总结资料，还能协助规划产品。这些能力很强大，但它们并没有消除人类思考的必要。事实上，工具越强大，清晰的方向就越有价值。"
+        },
+        {
+          "en": "A system can produce a book quickly, but speed alone cannot make the book worth reading. It can create a website, but that does not prove the website meets a genuine need. It can offer a hundred business ideas, but the responsibility for choosing remains human.",
+          "zh": "系统可以快速生成一本书，但速度本身不能证明这本书值得阅读。它可以制作一个网站，但这并不能证明网站满足了真实需求。它可以提出一百个创业点子，但作出选择的责任仍然在人。"
+        },
+        {
+          "en": "A productive partnership gives each side a meaningful role. People bring purpose, context, taste, accountability, and judgment. AI contributes speed, breadth, tireless iteration, and help with unfamiliar technical work.",
+          "zh": "有效的合作需要让双方各自承担有意义的角色。人带来目标、背景、审美、责任和判断；AI 则提供速度、广度、不知疲倦的迭代能力，以及对陌生技术工作的协助。"
+        },
+        {
+          "en": "The goal is not to let AI think instead of us. The goal is to use AI to think further, test sooner, and turn more of our considered ideas into reality.",
+          "zh": "目标不是让 AI 代替我们思考，而是借助 AI 看得更远、验证得更快，并把更多经过认真思考的想法变成现实。"
+        }
+      ]
+    },
+    {
+      "number": "04",
+      "title": "What Becomes a Competitive Advantage?",
+      "titleZh": "真正的竞争优势是什么？",
+      "paragraphs": [
+        {
+          "en": "When AI makes it easier to produce websites, images, text, and software, technical execution alone may become less distinctive. If a tool makes creation easier for you, it probably makes it easier for others too.",
+          "zh": "当 AI 让网站、图片、文字和软件更容易制作时，单纯的技术执行能力可能不再那么独特。如果某种工具让你更容易创造，它很可能也让其他人变得更容易。"
+        },
+        {
+          "en": "One advantage is accumulated content and knowledge. A useful collection, a carefully edited learning path, or a body of original work gains depth over time. It cannot be recreated merely by copying the visible interface.",
+          "zh": "一种优势是长期积累的内容与知识。一套有用的资料库、一条经过认真编辑的学习路径，或者一批原创作品，会随着时间逐渐形成深度。它们不是复制一个可见的网页界面就能重新获得的。"
+        },
+        {
+          "en": "Another advantage is understanding users. A product is not valuable because its creator finds it impressive. It becomes valuable when it helps people accomplish something they care about, with less friction or better results.",
+          "zh": "另一种优势是理解用户。产品并不会因为创作者觉得它很厉害就自动产生价值。只有当它帮助人们更顺畅地完成自己在意的事情，或者获得更好的结果时，它才真正有价值。"
+        },
+        {
+          "en": "The third is the ability to keep learning and adapting. A small project can grow into a stronger system when its creators listen, improve, and remain honest about what is and is not working.",
+          "zh": "第三种优势，是持续学习和调整的能力。当创作者愿意倾听、改进，并诚实面对哪些地方有效、哪些地方无效时，一个小项目就有机会逐渐成长为更成熟的系统。"
+        }
+      ]
+    },
+    {
+      "number": "05",
+      "title": "Begin with What You Can Do Today",
+      "titleZh": "从今天能够做到的事情开始",
+      "paragraphs": [
+        {
+          "en": "The most meaningful opportunity in the age of AI may not be building the next giant technology company. It may be giving more people the ability to turn their own observations and ideas into useful things.",
+          "zh": "AI 时代最有意义的机会，未必是建立下一家庞大的科技公司。它也可能是让更多人拥有把自己的观察和想法变成有用事物的能力。"
+        },
+        {
+          "en": "Lower barriers do not guarantee success. A project still needs users, feedback, maintenance, and a sustainable way to continue. A prototype is a beginning, not proof that a business will work.",
+          "zh": "门槛降低并不保证成功。一个项目仍然需要用户、反馈、维护，以及能够持续下去的合理方式。原型只是起点，并不能证明一门生意一定行得通。"
+        },
+        {
+          "en": "There is no need to rush into fundraising, expansion, or grand declarations. Make something people can use. Let it solve one specific problem. Observe what happens, improve what matters, and build from evidence.",
+          "zh": "不必急着融资、扩张，也不必急着作出宏大的宣言。先做出一个人们能够使用的东西，让它解决一个具体问题。观察实际发生了什么，改进真正重要的部分，再依据事实继续建设。"
+        },
+        {
+          "en": "Perhaps years later, the most important question will not be which framework or model we used. It will be why we started, whom we hoped to help, and whether what we made genuinely mattered. Entrepreneurship does not begin with having everything. It begins with being willing to start.",
+          "zh": "也许多年以后，最重要的问题并不是我们当初使用了哪种框架或模型，而是我们为什么出发、希望帮助谁，以及最终做出的东西是否真的有意义。创业并不是从拥有一切开始，而是从愿意迈出第一步开始。"
+        }
+      ]
+    }
+  ]
+}
