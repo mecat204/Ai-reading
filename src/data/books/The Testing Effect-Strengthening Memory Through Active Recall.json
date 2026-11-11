@@ -1,0 +1,60 @@
+{
+  "slug": "testing-effect",
+  "title": "The Testing Effect: Strengthening Memory Through Active Recall",
+  "titleZh": "测试效应：通过主动回忆强化记忆",
+  "author": "AI Reading Atlas Studio",
+  "year": "2026",
+  "language": "English · 中文",
+  "category": "Neuroscience",
+  "categoryZh": "神经科学",
+  "readingTime": "3 min",
+  "level": "Beginner",
+  "status": "Original · AI-assisted",
+  "description": "Explore the testing effect and discover how active recall can improve long-term memory.",
+  "descriptionZh": "了解测试效应，探索主动回忆如何帮助我们改善长期记忆。",
+  "chapters": [
+    {
+      "number": "01",
+      "title": "The Testing Effect: Strengthening Memory Through Active Recall",
+      "titleZh": "测试效应：通过主动回忆强化记忆",
+      "paragraphs": [
+        {
+          "en": "A Neuroscience Hack for Building a Powerful Memory",
+          "zh": "一种增强记忆力的神经科学技巧"
+        },
+        {
+          "en": "I used to force myself to remember what I had learned by constantly rereading the material. But I eventually realized that this was one of the least effective ways to retain information.",
+          "zh": "过去，我总是通过不断重复阅读材料，试图强迫自己记住学过的内容。但后来我意识到，这其实是一种效率很低的记忆方式。"
+        },
+        {
+          "en": "Neuroscience and cognitive psychology research have shown that actively trying to recall information from memory helps it stick far better than simply reading the same material over and over again.",
+          "zh": "神经科学和认知心理学研究表明，主动尝试从记忆中提取信息，比一遍又一遍地重复阅读同样的材料，更有助于巩固记忆。"
+        },
+        {
+          "en": "This phenomenon is known as the testing effect.",
+          "zh": "这种现象被称为测试效应（Testing Effect）。"
+        },
+        {
+          "en": "So, after reading something, here is exactly what you should do: close the material and try to explain what you have just learned from memory, without looking at it.",
+          "zh": "因此，读完一段内容之后，你可以这样做：合上材料，不再查看原文，尝试凭自己的记忆解释刚刚学到的知识。"
+        },
+        {
+          "en": "Then write down everything you can remember.",
+          "zh": "接着，把自己能够回忆起来的所有内容都写下来。"
+        },
+        {
+          "en": "You are going to struggle, and that is precisely the point.",
+          "zh": "这个过程可能会让你感到吃力，而这恰恰是它的意义所在。"
+        },
+        {
+          "en": "Every time your brain has to work to retrieve information, you are giving yourself another opportunity to strengthen that memory.",
+          "zh": "每当大脑努力提取信息时，你实际上就在为强化这段记忆创造新的机会。"
+        },
+        {
+          "en": "Try doing this again one day later, and then once more a week later. By combining active recall with spaced practice, you can make what you have learned much easier to remember over time.",
+          "zh": "可以在一天后重新进行一次回忆练习，再过一周进行第三次。将主动回忆与间隔练习结合起来，能够帮助你在更长时间内牢固地记住所学内容。"
+        }
+      ]
+    }
+  ]
+}

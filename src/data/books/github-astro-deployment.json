@@ -1,0 +1,221 @@
+{
+  "slug": "github-astro-deployment",
+  "title": "GitHub and Astro: Source Management and Online Deployment",
+  "titleZh": "GitHub 与 Astro：源码管理与在线部署",
+  "subtitle": "A practical guide to source control, automated builds, and static website deployment.",
+  "subtitleZh": "一份关于源码管理、自动化构建与静态网站部署的实用指南。",
+  "author": "AI Reading Atlas Studio",
+  "year": "2026",
+  "language": "English · 中文",
+  "category": "Web Development",
+  "categoryZh": "网站开发",
+  "readingTime": "15 min",
+  "level": "Beginner",
+  "status": "Original · AI-assisted",
+  "description": "Understand how GitHub, Astro, GitHub Actions, and GitHub Pages work together to build and publish a static website.",
+  "descriptionZh": "了解 GitHub、Astro、GitHub Actions 与 GitHub Pages 如何协同工作，完成静态网站的构建与发布。",
+  "cover": "cover-amber",
+  "chapters": [
+    {
+      "number": "01",
+      "title": "GitHub Does Not Natively Run Astro Projects",
+      "titleZh": "GitHub 不支持原生运行 Astro 项目",
+      "paragraphs": [
+        {
+          "en": "GitHub can store a complete Astro project, but it cannot directly execute .astro files.",
+          "zh": "GitHub 可以存储完整的 Astro 项目，但不能直接运行 .astro 文件。"
+        },
+        {
+          "en": "Astro is a frontend framework based on Node.js. It requires a build process to transform .astro files into browser-compatible HTML, CSS, and JavaScript.",
+          "zh": "Astro 是一个基于 Node.js 的前端构建框架，需要通过编译将 .astro 文件转换成浏览器能够识别的 HTML、CSS 和 JavaScript。"
+        },
+        {
+          "en": "Therefore, uploading the entire project to GitHub does not automatically provide an online preview.",
+          "zh": "因此，即使将整个项目上传到 GitHub，也不能直接获得在线预览效果。"
+        }
+      ]
+    },
+    {
+      "number": "02",
+      "title": "Uploading node_modules Does Not Enable Online Preview",
+      "titleZh": "node_modules 并不能解决在线预览问题",
+      "paragraphs": [
+        {
+          "en": "The node_modules directory stores the packages required by a project, including the dependencies needed to run and build Astro applications.",
+          "zh": "node_modules 存放的是项目所依赖的各种软件包，包括 Astro 运行和构建所需要的依赖。"
+        },
+        {
+          "en": "However, dependencies alone do not provide an execution environment.",
+          "zh": "但是，依赖文件本身并不具备执行环境。"
+        },
+        {
+          "en": "Even if node_modules is uploaded to GitHub, the repository still cannot directly run Astro.",
+          "zh": "即使将 node_modules 一并上传到 GitHub，也无法让 GitHub 仓库直接运行 Astro。"
+        },
+        {
+          "en": "The correct approach is to use GitHub Actions to provide a build environment, automatically install dependencies, and execute the build process.",
+          "zh": "正确的方式是使用 GitHub Actions 提供构建环境，自动安装依赖并执行构建过程。"
+        }
+      ]
+    },
+    {
+      "number": "03",
+      "title": "The Correct Deployment Workflow for Astro",
+      "titleZh": "Astro 项目的正确部署流程",
+      "paragraphs": [
+        {
+          "en": "Astro projects can be automatically deployed through GitHub Actions and GitHub Pages.",
+          "zh": "Astro 项目可以通过 GitHub Actions 与 GitHub Pages 实现自动部署。"
+        },
+        {
+          "en": "The basic workflow begins by pushing the Astro source code to GitHub. GitHub Actions then starts the build process.",
+          "zh": "基本流程首先是将 Astro 源代码推送到 GitHub，然后由 GitHub Actions 自动启动构建流程。"
+        },
+        {
+          "en": "The workflow sets up the Node.js environment, installs project dependencies, and executes npm run build.",
+          "zh": "工作流程会配置 Node.js 环境，安装项目依赖，并执行 npm run build。"
+        },
+        {
+          "en": "Astro generates static files in the dist directory. These build outputs are then deployed to GitHub Pages.",
+          "zh": "Astro 将生成的静态文件放入 dist 目录，然后将这些构建结果部署到 GitHub Pages。"
+        },
+        {
+          "en": "Once deployment is complete, the website can be accessed through its public URL.",
+          "zh": "部署完成后，就可以通过公开网址访问网站。"
+        },
+        {
+          "en": "Common commands include npm install, npm run build, and npm run preview.",
+          "zh": "常用命令包括 npm install、npm run build 和 npm run preview。"
+        },
+        {
+          "en": "npm install installs project dependencies. npm run build generates the static website. npm run preview starts a local preview of the built website.",
+          "zh": "npm install 用于安装项目依赖；npm run build 用于构建静态网站；npm run preview 用于在本地预览构建结果。"
+        }
+      ]
+    },
+    {
+      "number": "04",
+      "title": "The Purpose of the .gitignore File",
+      "titleZh": ".gitignore 文件的作用",
+      "paragraphs": [
+        {
+          "en": ".gitignore is a Git configuration file used to specify which files and directories should be excluded from version control.",
+          "zh": ".gitignore 是 Git 项目中的忽略规则文件，用于指定不需要纳入版本管理的文件和目录。"
+        },
+        {
+          "en": "For an Astro project, a typical configuration is:",
+          "zh": "对于 Astro 项目，可以创建以下配置："
+        },
+        {
+          "en": "node_modules/\ndist/\n.astro/",
+          "zh": "node_modules/\ndist/\n.astro/"
+        },
+        {
+          "en": "The node_modules directory contains project dependencies. The dist directory stores build outputs. The .astro directory contains local Astro cache and generated files.",
+          "zh": "node_modules/ 是项目依赖目录；dist/ 是项目构建输出目录；.astro/ 是 Astro 本地缓存及相关生成文件。"
+        },
+        {
+          "en": "To create the file, open the project root directory, create a new file named .gitignore, add the rules above, and save it.",
+          "zh": "创建方法：打开项目根目录，新建一个名为 .gitignore 的文件，写入上述规则，然后保存。"
+        },
+        {
+          "en": "Note that .gitignore only applies to files that are not already tracked by Git. It does not automatically remove files previously uploaded to GitHub.",
+          "zh": "注意：.gitignore 只对尚未被 Git 跟踪的文件生效，不能自动删除已经上传到 GitHub 的文件。"
+        }
+      ]
+    },
+    {
+      "number": "05",
+      "title": "Removing Previously Uploaded Files",
+      "titleZh": "删除已经上传的文件",
+      "paragraphs": [
+        {
+          "en": "Adding .gitignore is not sufficient for files that have already been uploaded to GitHub.",
+          "zh": "对于已经上传到 GitHub 的文件，仅仅添加 .gitignore 是不够的。"
+        },
+        {
+          "en": "For example, previously uploaded node_modules directories or ZIP archives must first be removed from the Git index.",
+          "zh": "例如，已经上传的 node_modules 或 ZIP 压缩包，需要先从 Git 索引中移除。"
+        },
+        {
+          "en": "To remove node_modules from Git tracking while keeping the local directory, use:",
+          "zh": "如果需要从 Git 版本管理中移除 node_modules，同时保留本地目录，可以使用："
+        },
+        {
+          "en": "git rm -r --cached node_modules",
+          "zh": "git rm -r --cached node_modules"
+        },
+        {
+          "en": "For a ZIP archive, use:",
+          "zh": "对于 ZIP 文件，可以使用："
+        },
+        {
+          "en": "git rm --cached archive.zip",
+          "zh": "git rm --cached archive.zip"
+        },
+        {
+          "en": "Then commit and push the changes:",
+          "zh": "然后提交并推送修改："
+        },
+        {
+          "en": "git add .gitignore\ngit commit -m \"Remove ignored files\"\ngit push",
+          "zh": "git add .gitignore\ngit commit -m \"Remove ignored files\"\ngit push"
+        },
+        {
+          "en": "The --cached option is important because it removes files from Git tracking while keeping the local copies intact.",
+          "zh": "--cached 参数非常重要，它表示从 Git 版本管理中移除文件，但保留本地文件。"
+        },
+        {
+          "en": "If files already exist in previous commits, ordinary deletion will not remove them from Git history.",
+          "zh": "如果文件已经存在于历史提交中，普通删除不会清除历史版本。"
+        }
+      ]
+    },
+    {
+      "number": "06",
+      "title": "ZIP Archives and Encryption",
+      "titleZh": "ZIP 文件与加密",
+      "paragraphs": [
+        {
+          "en": "Uploading an encrypted ZIP archive to GitHub does not make the entire repository secure.",
+          "zh": "ZIP 文件上传到 GitHub 后，即使已经加密，也不意味着整个仓库变得安全。"
+        },
+        {
+          "en": "An encrypted archive can protect its contents, but several factors still require attention.",
+          "zh": "加密压缩包可以保护其中的文件内容，但仍然需要注意以下几个方面。"
+        },
+        {
+          "en": "First, consider whether the repository is public or private.",
+          "zh": "首先，需要考虑仓库的公开或私有属性。"
+        },
+        {
+          "en": "Second, ensure that the archive password is sufficiently secure.",
+          "zh": "其次，需要确保压缩包密码具有足够的安全性。"
+        },
+        {
+          "en": "Third, check whether the archive contains sensitive information such as API tokens or private keys.",
+          "zh": "此外，还需要检查压缩包是否包含 API Token、私钥等敏感信息。"
+        },
+        {
+          "en": "In this discussion, the decision was to keep the existing encrypted ZIP archive and postpone further cleanup.",
+          "zh": "本次讨论中，决定暂时保留已经上传的加密 ZIP 文件，不再进行额外清理。"
+        }
+      ]
+    },
+    {
+      "number": "07",
+      "title": "Key Takeaways",
+      "titleZh": "核心总结",
+      "paragraphs": [
+        {
+          "en": "GitHub stores the source code, Astro builds the project, GitHub Actions automates the build process, and GitHub Pages hosts the resulting static website.",
+          "zh": "GitHub 负责代码托管，Astro 负责项目构建，GitHub Actions 负责自动化构建，GitHub Pages 负责静态网站托管。"
+        },
+        {
+          "en": "A source code repository is not a runtime environment, and dependencies alone do not provide an execution environment.",
+          "zh": "不要把源代码仓库当成运行环境，也不要把依赖文件当成执行环境。"
+        }
+      ]
+    }
+  ]
+}
