@@ -1,4 +1,5 @@
 {
+  "id": "testing-effect",
   "slug": "testing-effect",
   "title": "The Testing Effect: Strengthening Memory Through Active Recall",
   "titleZh": "测试效应：通过主动回忆强化记忆",
@@ -14,6 +15,7 @@
   "status": "Original · AI-assisted",
   "description": "Explore the testing effect and discover how active recall can improve long-term memory.",
   "descriptionZh": "了解测试效应，探索主动回忆如何帮助我们改善长期记忆。",
+  "cover": "cover-amber",
   "chapters": [
     {
       "number": "01",
